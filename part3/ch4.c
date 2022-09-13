@@ -11,7 +11,7 @@ int main(){
 		}while(a[i]<0 || a[i]>100 || a[i]%10!=0);
 		s+=a[i];
 		if(a[i]>max)	max=a[i];
-		
-	}printf("\nLa somme : %d\nLe max : %d",s,max);
+	}
+	printf("\nLa somme : %d\nLe max : %d",s,max);
 
 }

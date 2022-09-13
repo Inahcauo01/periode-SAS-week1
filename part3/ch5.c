@@ -10,5 +10,6 @@ int main(){
 		inv[j]=str[i];
 		j++;
 	}
-	printf("%s",inv);	
+	int n=atoi(inv);
+	printf("\nNum inverse: %d",n);
 }
